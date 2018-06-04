@@ -1,3 +1,21 @@
-body {
-  background-color: pink;
-}
+html {
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(https://images.pexels.com/photos/403575/pexels-photo-403575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); }
+  html .name {
+    margin: 0 auto;
+    margin-top: 50px;
+    align-content: center;
+    border: 2px solid black;
+    width: 50%;
+    padding: 15px;
+    background-color: whitesmoke;
+    align-self: center; }
+
+#landing {
+  height: 100vh;
+  color: black;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
