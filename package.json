@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "flickity": "^2.1.1"
+  }
+}

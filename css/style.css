@@ -1,21 +1,85 @@
 html {
   background-attachment: fixed;
   background-size: cover;
-  background-image: url(https://images.pexels.com/photos/403575/pexels-photo-403575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); }
+  background-image: url(https://i.pinimg.com/originals/ec/45/57/ec4557c9f10e178611140728ec5fb05a.jpg); }
   html .name {
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 25vh;
     align-content: center;
-    border: 2px solid black;
+    opacity: 0.9;
     width: 50%;
-    padding: 15px;
+    padding: 35px;
     background-color: whitesmoke;
-    align-self: center; }
+    align-content: center; }
+    html .name h1 {
+      font-size: 50px; }
+    html .name h2 {
+      font-size: 20px; }
+  html nav.navbar {
+    min-height: inherit;
+    opacity: 0.9; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: sans-serif; }
+
+.carousel {
+  background: #EEE; }
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: carousel-cell; }
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white; }
 
 #landing {
   height: 100vh;
   color: black;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif; }
+
+#about, #experience, #contact, #work {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  opacity: 0.9;
+  align-content: center;
+  height: 80vh;
+  width: 100%;
+  padding: 15px;
+  background-color: whitesmoke;
+  align-self: center; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
 /*# sourceMappingURL=style.css.map */
