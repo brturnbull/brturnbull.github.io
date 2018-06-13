@@ -19,32 +19,6 @@ html {
     min-height: inherit;
     opacity: 0.9; }
 
-* {
-  box-sizing: border-box; }
-
-body {
-  font-family: sans-serif; }
-
-.carousel {
-  background: #EEE; }
-
-.carousel-cell {
-  width: 66%;
-  height: 200px;
-  margin-right: 10px;
-  background: #8C8;
-  border-radius: 5px;
-  counter-increment: carousel-cell; }
-
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white; }
-
 #landing {
   height: 100vh;
   color: black;
@@ -53,7 +27,7 @@ body {
 
 #about, #experience, #contact, #work {
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 50vh;
   opacity: 0.9;
   align-content: center;
   height: 80vh;

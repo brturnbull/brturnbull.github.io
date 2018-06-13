@@ -2,13 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Bridget Turnbull</title>
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Codystar|Fredericka+the+GreatBuda|300|Junge|Londrina+Sketch|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="./js/app.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
   </head>
+  <script type="text/javascript" src="./js/app.js"></script>
   <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
@@ -51,6 +54,7 @@
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     </p>
+    <em class="icon-photoshop"></em> Photoshop
   </section>
   <section id="experience">
     <h2>Experience</h2>
@@ -66,14 +70,14 @@
   </section>
   <section id="work">
     <h2>Work</h2>
-    <data-flickity='{ "wrapAround": true }'>
-<div class="carousel-cell"></div>
-<div class="carousel-cell"></div>
-<div class="carousel-cell"></div>
-<div class="carousel-cell"></div>
-<div class="carousel-cell"></div>
-</div>
-
+    <div class="wrapper">
+    <div class="work" data-slick='{"slidesToShow": 2, "slidesToScroll": 1}'>
+      <div><img src="./images/destination_love.png"></div>
+      <div><img src="./images/moodify_app.png"></div>
+      <div><img src="./images/sloth_burger.png"></div>
+      <div><img src="./images/instaspam.png"></div>
+    </div>
+    </div>
   </section>
   <section id="contact">
     <h2>Contact</h2>
@@ -88,7 +92,7 @@
     </p>
   </section>
   <footer>
-    <a> <img src="" alt=""> </a>
+    <p> BT '18 </p>
   </footer>
   </body>
 </html>
