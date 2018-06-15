@@ -6,7 +6,6 @@ html {
     margin: 0 auto;
     margin-top: 25vh;
     align-content: center;
-    opacity: 0.9;
     width: 50%;
     padding: 35px;
     background-color: whitesmoke;
@@ -17,7 +16,7 @@ html {
       font-size: 20px; }
   html nav.navbar {
     min-height: inherit;
-    opacity: 0.9; }
+  }
 
 #landing {
   height: 100vh;
@@ -28,9 +27,7 @@ html {
 #about, #experience, #contact, #work {
   margin: 0 auto;
   margin-bottom: 50vh;
-  opacity: 0.9;
   align-content: center;
-  height: 80vh;
   width: 100%;
   padding: 15px;
   background-color: whitesmoke;
