@@ -18,7 +18,7 @@ html {
     padding: 5% 10%; }
     html #about .blurb, html #work .blurb {
       border-bottom: 1px solid; }
-    html #about h2, html #work h2 {
+    html #about h1, html #work h1 {
       font-size: 50px; }
     html #about h3, html #work h3 {
       font-size: 30px; }
@@ -34,7 +34,7 @@ html {
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif; }
   html footer {
-    height: 20vh;
+    height: 30vh;
     text-align: center;
     font-size: 50px; }
     html footer a {
