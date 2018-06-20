@@ -41,6 +41,14 @@ html {
       color: #4a4a4a; }
       html footer a:hover {
         color: pink; }
+  html .slick-prev:before {
+    color: black; }
+    html .slick-prev:before:hover {
+      color: pink; }
+  html .slick-next:before {
+    color: black; }
+    html .slick-next:before:hover {
+      color: pink; }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
