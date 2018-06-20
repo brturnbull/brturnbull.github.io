@@ -24,8 +24,8 @@ html {
       font-size: 30px; }
     html #about p, html #work p {
       margin-bottom: 3%; }
-  html img {
-    margin: 50px; }
+  html .project {
+    margin: 80px; }
   html footer {
     background-color: whitesmoke; }
   html #landing {
