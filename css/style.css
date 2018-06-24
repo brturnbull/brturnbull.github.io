@@ -25,7 +25,8 @@ html {
     html #about p, html #work p {
       margin-bottom: 3%; }
   html .project {
-    margin: 80px; }
+    margin: 80px;
+    padding: 30px; }
   html footer {
     background-color: whitesmoke; }
   html #landing {
@@ -33,6 +34,11 @@ html {
     color: #4a4a4a;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif; }
+  html a {
+    color: #4a4a4a;
+    font-size: 30px; }
+    html a:hover {
+      color: pink; }
   html footer {
     height: 30vh;
     text-align: center;
