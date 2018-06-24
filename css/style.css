@@ -25,8 +25,9 @@ html {
     html #about p, html #work p {
       margin-bottom: 3%; }
   html .project {
-    margin: 80px;
-    padding: 30px; }
+    margin: 80px; }
+    html .project h3 {
+      margin-top: 20px; }
   html footer {
     background-color: whitesmoke; }
   html #landing {
