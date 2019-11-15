@@ -1,61 +1,95 @@
-html {
-  background-attachment: fixed;
-  background-size: cover;
-  background-image: url(https://i.pinimg.com/originals/ec/45/57/ec4557c9f10e178611140728ec5fb05a.jpg); }
-  html .name {
+
+html .name {
     margin: 0 auto;
     margin-top: 25vh;
     align-content: center;
     width: 50%;
     padding: 35px;
     align-content: center;
-    background-color: whitesmoke; }
-    html .name h1 {
-      font-size: 50px; }
-  html #about, html #work {
     background-color: whitesmoke;
-    margin-bottom: 80vh;
-    padding: 5% 10%; }
-    html #about .blurb, html #work .blurb {
-      border-bottom: 1px solid; }
-    html #about h1, html #work h1 {
-      font-size: 50px; }
-    html #about h3, html #work h3 {
-      font-size: 30px; }
-    html #about p, html #work p {
-      margin-bottom: 3%; }
-  html .project {
-    margin: 80px; }
-    html .project h3 {
-      margin-top: 20px; }
-  html footer {
-    background-color: whitesmoke; }
-  html #landing {
-    height: 100vh;
+}
+
+html .name h1 {
+    font-size: 50px;
+}
+
+html #about, html #work {
+    background-color: whitesmoke;
+    padding: 5% 10%;
+}
+
+html #about .blurb, html #work .blurb {
+    border-bottom: 1px solid;
+}
+
+html #about h1, html #work h1 {
+    font-size: 50px;
+}
+
+html #about h3, html #work h3 {
+    font-size: 30px;
+}
+
+html #about p, html #work p {
+    margin-bottom: 3%;
+}
+
+html .project {
+    margin: 80px;
+}
+
+html .project h3 {
+    margin-top: 20px;
+}
+
+html footer {
+    background-color: whitesmoke;
+}
+
+html #landing {
+    height: 60vh;
     color: #4a4a4a;
     margin: 0 auto;
-    font-family: 'Open Sans', sans-serif; }
-  html a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html a {
     color: #4a4a4a;
-    font-size: 30px; }
-    html a:hover {
-      color: pink; }
-  html footer {
-    height: 30vh;
+    font-size: 30px;
+}
+
+html a:hover {
+    color: pink;
+}
+
+html footer {
     text-align: center;
-    font-size: 50px; }
-    html footer a {
-      color: #4a4a4a; }
-      html footer a:hover {
-        color: pink; }
-  html .slick-prev:before {
-    color: black; }
-    html .slick-prev:before:hover {
-      color: pink; }
-  html .slick-next:before {
-    color: black; }
-    html .slick-next:before:hover {
-      color: pink; }
+    font-size: 50px;
+}
+
+html footer a {
+    color: #4a4a4a;
+}
+
+html footer a:hover {
+    color: pink;
+}
+
+html .slick-prev:before {
+    color: black;
+}
+
+html .slick-prev:before:hover {
+    color: pink;
+}
+
+html .slick-next:before {
+    color: black;
+}
+
+html .slick-next:before:hover {
+    color: pink;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -70,11 +104,12 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 
 /*# sourceMappingURL=style.css.map */
